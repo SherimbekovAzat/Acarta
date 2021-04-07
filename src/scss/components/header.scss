@@ -1,0 +1,35 @@
+.header{
+    padding: 30px 0;
+    background-color: $color-bg;
+    &__link{
+        @include font($color-black,15px,bold,$font-fam);
+        &:hover{
+            color: #C47344;
+            transition: 0.2s;
+        }
+    }
+    &__button{
+        @include font(#FFFFFF,14px,bold,$font-fam);
+        font-style: normal;
+        background: #C47344;
+        border-radius: 50px;
+        padding: 14px 28px;
+        cursor: pointer;
+    }
+    &__list{
+        margin-right: 40px;
+        &:nth-last-child(){
+            margin-right: 30px;
+        }
+    }
+    &__right{
+        @include flex-center();
+    }
+    &__lists{
+        display: flex;
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+    }
+}
