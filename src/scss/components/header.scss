@@ -3,6 +3,10 @@
     background-color: $color-bg;
     &__link{
         @include font($color-black,15px,bold,$font-fam);
+        &:hover{
+            color: #C47344;
+            transition: 0.2s;
+        }
     }
     &__button{
         @include font(#FFFFFF,14px,bold,$font-fam);
@@ -10,6 +14,7 @@
         background: #C47344;
         border-radius: 50px;
         padding: 14px 28px;
+        cursor: pointer;
     }
     &__list{
         margin-right: 40px;
