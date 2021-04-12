@@ -1,5 +1,4 @@
 .for{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #F9EEE3;
     &__content{
         @include flex-center();
         flex-direction: column;
@@ -16,11 +15,19 @@
     &__title{
         @include font($color-black,42px,bold,$font-fam);
         text-align: center;
+        &--big{
+            max-width: 254px;
+            line-height: 52px;
+        }
     }
     &__subtitle{
         @include font($color-black,16px,500,$font-fam);
         text-align: center;
         margin-top: 16px;
+        &--long{
+            max-width: 435px;
+            line-height: 28px;
+        }
     }
     &__button{
         @include font($color-black,16px,bold,$font-fam);
