@@ -95,6 +95,7 @@ table {
 
 body {
   box-sizing: border-box;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #F9EEE3;
 }
 
 img {
@@ -118,7 +119,6 @@ a {
 
 .header {
   padding: 30px 0;
-  background-color: #FFF8EE;
 }
 
 .header__link {
@@ -168,10 +168,6 @@ a {
   justify-content: space-between;
 }
 
-.for {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #F9EEE3;
-}
-
 .for__content {
   display: flex;
   align-items: center;
@@ -197,6 +193,11 @@ a {
   text-align: center;
 }
 
+.for__title--big {
+  max-width: 254px;
+  line-height: 52px;
+}
+
 .for__subtitle {
   color: #322F2E;
   font-size: 16px;
@@ -204,6 +205,11 @@ a {
   font-family: "Roboto", sans-serif;
   text-align: center;
   margin-top: 16px;
+}
+
+.for__subtitle--long {
+  max-width: 435px;
+  line-height: 28px;
 }
 
 .for__button {
@@ -232,4 +238,102 @@ a {
 
 .for__img {
   margin: 51px 136px 26px;
+}
+
+.money {
+  margin: 240px 0 136px;
+}
+
+.money__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.money__title {
+  color: #322F2E;
+  font-size: 53px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  line-height: 62px;
+  max-width: 465px;
+}
+
+.money__text {
+  line-height: 33px;
+  color: #322F2E;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  max-width: 416px;
+  margin: 25px 0 23px;
+}
+
+.money__quiz {
+  background: #32686F;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.55);
+  border-radius: 10px;
+  width: 220px;
+  height: 260px;
+  margin-right: 85px;
+  margin-top: -50px;
+}
+
+.money__quizcontent {
+  margin: 19px 27px 23px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.money__img {
+  max-width: 64px;
+  max-height: 37px;
+  margin-bottom: 12px;
+}
+
+.money__link {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.money__link--first {
+  margin-bottom: 23px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.money__link--second {
+  margin-right: 110px;
+}
+
+.money__subtitle {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.money__line {
+  background-color: rgba(255, 255, 255, 0.18);
+  width: 170px;
+  height: 1px;
+  margin-bottom: 8px;
+}
+
+.money__button {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #F9EEE3;
+  color: #322F2E;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  padding: 11px 27px 16px;
+  border: 2px solid #E1DED9;
+  box-sizing: border-box;
+  border-radius: 50px;
 }

@@ -1,0 +1,65 @@
+.money{
+    margin: 240px 0 136px;
+    &__content{
+        @include flex-center();
+    }
+    &__title{
+        @include font($color-black,53px,bold,$font-fam);
+        line-height: 62px;
+        max-width: 465px;
+    }
+    &__text{
+        line-height: 33px;
+        @include font($color-black,21px,500,$font-fam);
+        max-width: 416px;
+        margin: 25px 0 23px;
+    }
+    &__quiz{
+        background: #32686F;
+        box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.55);
+        border-radius: 10px;
+        width: 220px;
+        height: 260px;
+        margin-right: 85px;
+        margin-top: -50px;
+    }
+    &__quizcontent{
+        margin: 19px 27px 23px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__img{
+        max-width: 64px;
+        max-height: 37px;
+        margin-bottom: 12px;
+    }
+    &__link{
+        @include font(#FFFFFF,14px,500,$font-fam);
+        &--first{
+            margin-bottom: 23px;
+            @include font(#FFFFFF,14px,500,$font-fam);
+        }
+        &--second{
+            margin-right: 110px;
+        }
+    }
+    &__subtitle{
+        @include font(#FFFFFF,28px,bold,$font-fam);
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+    &__line{
+        background-color:rgba(255, 255, 255, 0.18);
+        width: 170px;
+        height: 1px;
+        margin-bottom: 8px;
+    }
+    &__button{
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #F9EEE3;
+        @include font($color-black,15px,bold,$font-fam);
+        padding: 11px 27px 16px;
+        border: 2px solid #E1DED9;
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+}
