@@ -1,5 +1,4 @@
 .partners{
-    background-color: $color-herobg;
     &__row{
         justify-content: space-around;
     }
@@ -12,20 +11,21 @@
         text-align: center;
       
     }
+       
+    &__link{
+        @include font($color-korichnevy,16px,bold,$fonts-roboto);
+        position: relative;
+        &:hover{
+            cursor: pointer;
+            color: #e39d76;
+        }
         &::after{
-        position: absolute;
-        left: 700px;
-        top:  510px;
+            position: absolute;
+        right: -73px;
+        top:  0;
         width: 100%;
         height: 100%;
        content:url(../img/png/link.png)
     }
-    &__link{
-        @include font($color-korichnevy,16px,bold,$fonts-roboto);
-        margin-bottom: 20px;
-        &:hover{
-            cursor: pointer;
-            color: #d48153;
-        }
-    }
+}
 }
