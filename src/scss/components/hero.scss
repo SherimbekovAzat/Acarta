@@ -1,0 +1,56 @@
+.hero{
+    background-color: $color-herobg;
+    &__button{
+        margin: 50px auto 11px auto;
+        &:hover{
+            .button__left{
+                transform: scale(1) translate(10%);
+                transition: 1.2s
+            }
+        }
+    }
+    &__title{
+        @include font($color-title,110px,bold,$fonts-roboto);
+        margin: 0 auto 28px auto;
+        text-align: center;
+    }
+    &__description{
+        @include font($color-title,21px,500,$fonts-roboto);
+        margin:28px auto 20px auto;
+        width: 524px;
+        text-align: center;
+        line-height: 33px;
+    }
+}
+.button__left{
+    background-color: $color-new;
+    border-radius: 20px;
+    @include font($color-white,12px,bold,$fonts-roboto);
+    outline:none;
+    border: none;
+    padding: 3px 14px 3px 11px ;
+}
+.button__right{
+    background-color:$color-heroButton;
+    border-radius: 20px;
+    @include font($color-buttomrighttext,12px,bold,$fonts-roboto);
+    outline:none;
+    border: none;
+    padding: 3px 20px 3px 31px;
+    margin-left: -12px;
+}
+.button__middle{
+    background-color:$color-korichnevy;
+    @include font($color-white,16px,bold,$fonts-roboto);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 14px 31px 13px 32px;
+    margin:  auto;
+    display: flex;
+    &:hover{
+        background-color: $color-temnokorichneviy;
+        transform: scale(1.1);
+        transition: 1.2s;
+    }
+}

@@ -119,3 +119,128 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+
+.hero {
+  background-color: #FFF8EE;
+}
+
+.hero__button {
+  margin: 50px auto 11px auto;
+}
+
+.hero__button:hover .button__left {
+  -webkit-transform: scale(1) translate(10%);
+          transform: scale(1) translate(10%);
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.hero__title {
+  color: #322F2E;
+  font-size: 110px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto 28px auto;
+  text-align: center;
+}
+
+.hero__description {
+  color: #322F2E;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 28px auto 20px auto;
+  width: 524px;
+  text-align: center;
+  line-height: 33px;
+}
+
+.button__left {
+  background-color: #F9A38F;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: none;
+  padding: 3px 14px 3px 11px;
+}
+
+.button__right {
+  background-color: #F9EDE2;
+  border-radius: 20px;
+  color: #4D4D4D;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: none;
+  padding: 3px 20px 3px 31px;
+  margin-left: -12px;
+}
+
+.button__middle {
+  background-color: #C47344;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: 14px 31px 13px 32px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button__middle:hover {
+  background-color: #5e2708;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.partners {
+  background-color: #FFF8EE;
+}
+
+.partners__row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.partners__image {
+  margin-bottom: 34px;
+}
+
+.partners__content {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.partners::after {
+  position: absolute;
+  left: 700px;
+  top: 510px;
+  width: 100%;
+  height: 100%;
+  content: url(../img/png/link.png);
+}
+
+.partners__link {
+  color: #C47344;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.partners__link:hover {
+  cursor: pointer;
+  color: #d48153;
+}
