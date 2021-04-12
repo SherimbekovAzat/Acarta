@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 @mixin font($color,$size,$weight,$family){
     color: $color;
+=======
+@mixin flex-center($acenter:center, $jcenter:center){
+    display: flex;
+    align-items: $acenter;
+    justify-content: $jcenter;
+}
+@mixin font($color, $size, $weight, $family){
+    color:$color;
+>>>>>>> cd22410161c6945248cc72f8b4b90258ab334b92
     font-size: $size;
     font-weight: $weight;
     font-family: $family;
