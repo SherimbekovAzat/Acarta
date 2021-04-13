@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @mixin font($color,$size,$weight,$family){
     color: $color;
 =======
+=======
+
+>>>>>>> 77d991894673f67622cd0d934472d4a59a70806b
 @mixin flex-center($acenter:center, $jcenter:center){
     display: flex;
     align-items: $acenter;
@@ -9,7 +13,10 @@
 }
 @mixin font($color, $size, $weight, $family){
     color:$color;
+<<<<<<< HEAD
 >>>>>>> cd22410161c6945248cc72f8b4b90258ab334b92
+=======
+>>>>>>> 77d991894673f67622cd0d934472d4a59a70806b
     font-size: $size;
     font-weight: $weight;
     font-family: $family;
