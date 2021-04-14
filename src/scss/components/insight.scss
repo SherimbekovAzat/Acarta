@@ -1,0 +1,41 @@
+.insight{
+    margin-bottom: 150px;
+    &__content{
+        margin: 89px 0 96px ;
+    }
+    &__image{
+        margin: 43px 80px 45px 60px;
+        
+    }
+    &__background{
+        background-color: #FAF7F3
+    }
+    &__title{
+        @include font($color-title,40px,bold,$fonts-roboto);
+    }
+    &__description{
+        @include font($color-title,20px,500,$fonts-roboto);
+        margin: 24px 0 31px;
+        line-height: 31px 
+
+    }
+    &__input{
+        @include font($color-title,20px,500,$fonts-roboto);
+        background-color:$color-white;
+        box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        padding:12px 153px 11px 31px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content:url(../img/png/Group1.png);
+            top: 0;
+            right: -100px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+      
+}

@@ -1,0 +1,33 @@
+.footer__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__nav {
+  display: block;
+  padding-top: 7px;
+}
+
+.footer__leftnav {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 120px;
+}
+
+.footer__middlenav {
+  margin-left: 120px;
+}
+
+.footer__rightnav {
+  margin-left: 120px;
+}
+
+.footer__description {
+  margin-bottom: 7px;
+}

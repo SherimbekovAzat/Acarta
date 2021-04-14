@@ -1,0 +1,81 @@
+.footer{
+    &__right{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__nav{
+        @include font($color-link,13px,normal,$fonts-roboto);
+        display: block;
+        padding-top: 9px;
+        text-decoration: none;
+    }
+    &__leftnav{
+        flex-direction: column; 
+        margin-left: 120px;
+    }
+    &__middlenav{
+        margin-left: 120px;
+    }
+    &__rightnav{
+        margin-left: 120px;
+    }
+    &__description{
+        margin-bottom:7px;
+        @include font(#333333,13px,500,$fonts-roboto);
+    }
+    &__text{
+        @include font(#131313,13px,normal,$fonts-roboto);
+        padding: 20px 0 30px;
+        line-height: 20px
+    }
+    &__content{
+        @include font( #313131,13px,500,$fonts-roboto);
+        margin-bottom: 10px;
+        }
+    &__rectangle{
+        margin-bottom:30px ;
+    }
+    &__trtext{
+        @include font( #D3D3D3,13px,normal,$fonts-roboto);
+        padding: 20px 0;
+        line-height: 20px;
+    }
+    &__pay{
+        @include font( #D3D3D3,13px,normal,$fonts-roboto);
+    }
+    &__button{
+        background-color: $color-new;
+        border-radius: 20px;
+        @include font($color-white,12px,bold,$fonts-roboto);
+        outline:none;
+        border: none;
+        padding: 3px 14px 3px 11px ;
+    }
+    &__bttext{
+        @include font( #D3D3D3,13px,normal,$fonts-roboto);
+    }
+    &__icon{
+        margin-left: 10px;
+        &:first-child{
+            margin-bottom: 2px;
+        }
+        &:last-child{
+            margin-bottom: 6px;
+        }
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0 80px;
+    }
+    &__bttext{
+        margin-top: 5px;
+    }
+    &__btright{
+        display: flex;
+        margin-top: 25px;
+        margin-left: 815px;
+    }
+}
+
+
